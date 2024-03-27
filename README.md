@@ -27,6 +27,7 @@ git clone https://github.com/tfasanga/minimal-gitops-flux
 cd minimal-gitops-flux
 ```
 
+
 List all k8s resources in namespace flux-system:
 
 ```shell
