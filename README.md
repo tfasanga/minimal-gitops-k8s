@@ -32,3 +32,13 @@ List all k8s resources in namespace flux-system:
 ```shell
 kubectl get all --namespace flux-system
 ```
+
+# Delete
+
+```shell
+flux suspend kustomization minimal-gitops
+```
+
+```shell
+kubectl delete -k kustomize/base
+```
