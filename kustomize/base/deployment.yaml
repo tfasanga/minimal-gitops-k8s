@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: go-api-deployment
-  namespace: minimal-apps
+  namespace: default
   labels:
     app.kubernetes.io/name: go-api-app
 spec:
