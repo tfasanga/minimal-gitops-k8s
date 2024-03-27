@@ -16,6 +16,15 @@ minikube image load my-go-api-kustomize-image.tar
 kubectl apply -k kustomize/base
 ```
 
+# Verify
+
+```shell
+ kubectl get -n minimal-apps all
+```
+```shell
+ kubectl get all
+```
+
 # Run
 
 ## Run port forwarder
